@@ -1,0 +1,29 @@
+body{
+	font-family: "montserrat";
+	background: url(http://www.linketal.co.za/wp-content/uploads/2014/01/about-us-image-faded.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#content{
+	text-align: left;
+	padding-left: 36%;
+}
+h1{
+	color: #2361B2;
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+#submit{
+	background-color: #2361B2;
+	width: 60px;
+	height: 30px;
+	color: white;
+}
+#submit:hover{
+	color: grey;
+}
+#button{
+	padding-left: 17%;
+}

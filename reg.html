@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>Job Application</title>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+<body>
+	<h1>ABC Company</h1><hr>
+	<h3>Fill the form below to apply for the post of sales manager</h3>
+	<div id="content">
+	<form name="reg" action="main.php" method="POST" enctype="multipart/form-data">
+		<label>Name</label>
+		<input type="text" name="name" required><br><br>
+		<label>Email</label>
+		<input type="email" name="email" required><br><br>
+		<label>Phone Number</label>
+		<input type="text" name="phone" required><br><br>
+		<label>Age</label>
+		<input type="number" name="age" required><br><br>
+		<label>Gender:</label>
+		<label>Female</label>
+		<input type="radio" name="gender" value="female">
+		<label>Male</label>
+		<input type="radio" name="gender" value="male"><br><br>
+		<label>Previous experience</label><br>
+		<textarea rows="10" cols="50" name="experience" required></textarea><br><br>
+		<label>Upload Resume</label>
+		<input type="file" name="resume"><br><br>
+		<div id="button">
+		<input type="submit" name="submit" value="Submit" id="submit">
+	</div>
+	</form>
+</div>
+</body>
+</html>
